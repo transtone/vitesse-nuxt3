@@ -54,6 +54,9 @@ export default defineNuxtConfig({
       ],
     },
   },
+  build: {
+    transpile: ['rxjs']
+  },
 
   pwa,
 
